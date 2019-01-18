@@ -10,5 +10,6 @@ Stop losing time installing CUDA or Dlib! Docker will do it for you
 ## Example
 `docker-compose up`
 
-# Reference
-https://github.com/ageitgey/face_recognition
+## Reference
+Face recognition: https://github.com/ageitgey/face_recognition
+Dlib: https://github.com/davisking/dlib
