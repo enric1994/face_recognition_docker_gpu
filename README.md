@@ -14,6 +14,13 @@ git clone https://github.com/enric1994/face_recognition_docker_gpu.git
 cd face_recognition_docker_gpu/docker
 docker-compose up
 ```
+  **Output:**
+```
+face_recognition    | [(51, 106, 99, 59), (27, 63, 75, 15)]
+face_recognition    | [(109, 176, 191, 94)]
+face_recognition    | [(184, 85, 266, 3), (133, 187, 231, 89)]
+face_recognition    | [(49, 96, 89, 57)]
+```
 
 ## Reference
 Face recognition: https://github.com/ageitgey/face_recognition
