@@ -1,6 +1,6 @@
 GPU-Ready implementation of the famous Python package: face_recognition
 
-Stop losing time installing CUDA or Dlib!
+Stop losing time installing CUDA or Dlib! Docker will do it for you
 
 ## Requirements
 1. GPU supporting CUDA 8 ( driver version >= 367.4x)
@@ -9,3 +9,6 @@ Stop losing time installing CUDA or Dlib!
 
 ## Example
 `docker-compose up`
+
+# Reference
+https://github.com/ageitgey/face_recognition
