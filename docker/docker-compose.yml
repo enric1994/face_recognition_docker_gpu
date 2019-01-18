@@ -1,0 +1,14 @@
+version: '2.3'
+
+services:
+  face_recognition:
+    image: face_recognition
+    container_name: face_recognition
+    working_dir: /face_recognition
+    build:
+      context: ../
+      dockerfile: docker/Dockerfile
+    command: python3 -u example.py
+    volumes:
+      - ../:/face_recognition
+    runtime: nvidia
