@@ -9,6 +9,7 @@ Stop losing time installing CUDA or Dlib! Docker will do it for you
 3. [Nvidia-Docker](https://github.com/NVIDIA/nvidia-docker)
 
 ## Example
+Detect the faces in the `images` folder
 ```
 git clone https://github.com/enric1994/face_recognition_docker_gpu.git
 cd face_recognition_docker_gpu/docker
@@ -23,5 +24,5 @@ face_recognition    | [(49, 96, 89, 57)]
 ```
 
 ## Reference
-Face recognition: https://github.com/ageitgey/face_recognition
-Dlib: https://github.com/davisking/dlib
+* Face recognition: https://github.com/ageitgey/face_recognition
+* Dlib: https://github.com/davisking/dlib
