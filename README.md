@@ -8,7 +8,11 @@ Stop losing time installing CUDA or Dlib! Docker will do it for you
 3. [Nvidia-Docker](https://github.com/NVIDIA/nvidia-docker)
 
 ## Example
-`docker-compose up`
+```
+git clone https://github.com/enric1994/face_recognition_docker_gpu.git
+cd face_recognition_docker_gpu/docker
+docker-compose up
+```
 
 ## Reference
 Face recognition: https://github.com/ageitgey/face_recognition
