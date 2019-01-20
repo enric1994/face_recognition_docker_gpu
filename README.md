@@ -8,6 +8,8 @@ Stop losing time installing CUDA or Dlib! Docker will do it for you
 2. [Docker and Compose](https://gist.github.com/enric1994/3b5c20ddb2b4033c4498b92a71d909da)
 3. [Nvidia-Docker](https://github.com/NVIDIA/nvidia-docker)
 
+Note: If you don't have GPU, ignore step 3 and comment the last line of the docker/docker-compose.yml: `runtime: nvidia`. Performance will be affected
+
 ## Example
 Detect the faces in the `images` folder
 ```
